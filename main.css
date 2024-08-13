@@ -22,6 +22,8 @@
     display: grid;
     grid-template-rows: 80px 1fr;
     justify-items: center;
+    background-color: #1992d4;
+    color: white;
 }
 
 .main-section {
@@ -132,6 +134,18 @@ button {
     grid-template-columns: 1fr 1fr;
 }
 
+.card > div {
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    gap: 30px;
+}
+
+.card {
+    border: 2px solid black;
+    position: relative;
+}
 .sidecards {
     display: grid;
     margin-top: 30px;
