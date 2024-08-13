@@ -115,3 +115,64 @@ button {
     height: 30px;
     border-radius: 13px;
 }
+
+.main-section {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.user-projects {
+    display: grid;
+    grid-template-rows: 20px;
+    margin-top: 30px;
+}
+
+.main-projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.sidecards {
+    display: grid;
+    margin-top: 30px;
+}
+
+.sidecards-main {
+    display: grid;
+    row-gap: 25px;
+}
+
+.container-box {
+    border: 2px solid black;
+    display: grid;
+    width: 250px;
+    justify-content: center;
+}
+
+.box:first-child, .box:nth-child(2) {
+    border-bottom: 2px solid blue;
+}
+
+.second-container {
+    width: 200px;
+    height: min-content;
+}
+
+.trending {
+    display: grid;
+}
+
+.trending-container {
+    display: grid;
+    grid-template-columns: 40px 145px;
+    column-gap: 10px;
+    row-gap: 12px;
+    border: 2px solid black;
+    width: 250px;
+    justify-content: center;
+}
+
+.users-pic {
+    border: 3px solid black;
+    border-radius: 100%;
+}
