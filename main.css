@@ -24,6 +24,9 @@
     justify-items: center;
     background-color: #1992d4;
     color: white;
+    font-family: "Roboto";
+    font-weight: 500;
+    height: 100vh;
 }
 
 .main-section {
@@ -42,6 +45,7 @@
     font-size: 1.5rem; /* Here */
     margin-bottom: 25px;
     margin-top: 10px;
+    margin-right: 5px;
 }
 
 .nav-item {
@@ -147,7 +151,6 @@ button {
     position: relative;
 }
 .sidecards {
-    display: grid;
     margin-top: 30px;
 }
 
@@ -190,3 +193,5 @@ button {
     border: 3px solid black;
     border-radius: 100%;
 }
+
+/* Fix weird bug where design is not viewport height */ 
