@@ -8,6 +8,7 @@
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: auto 1fr;
+    font-family: "Roboto";
 }
 
 .header-section {
@@ -26,7 +27,6 @@
     justify-items: center;
     background-color: #1992d4;
     color: white;
-    font-family: "Roboto";
     font-weight: 500;
     height: 100vh;
 }
@@ -69,12 +69,14 @@ form > input {
     height: 20px;
     grid-column: 2 / 3;
     grid-row: 1;
+    border-radius: 10px;
+    background-color: rgba(226,232,240,255);
+    border: none;
 }
 
 form {
     display: grid;
     grid-template-columns: 30px 500px;
-    column-gap: 10px;
     place-content: center;
 }
 
@@ -87,6 +89,13 @@ form {
 
 .welcome > p:last-of-type {
     grid-column: 2;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.welcome > p:first-of-type {
+    font-size: 0.8rem;
+    font-weight: 500;
 }
 
 .welcome > div {
@@ -212,7 +221,7 @@ ul > img:first-child {
     height: 40px;
 }
 
-form > img {
+form > img, .profile > img {
     width: 20px;
     height: 20px;
 }
