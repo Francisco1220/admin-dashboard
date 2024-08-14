@@ -65,8 +65,8 @@ ul > div:first-child {
 }
 
 form > input {
-    width: 400px;
-    height: 20px;
+    width: 500px;
+    height: 24px;
     grid-column: 2 / 3;
     grid-row: 1;
     border-radius: 10px;
@@ -121,6 +121,7 @@ form {
 
 .profile > p, .profile > div:first-child {
     align-self: center;
+    font-weight: bold;
 }
 
 .buttons {
@@ -138,7 +139,7 @@ button {
     color: white;
     background-color:#1992d4;
     border: none;
-    font-weight: 550;
+    font-weight: 500;
 }
 
 .main-section {
@@ -233,4 +234,8 @@ form > img, .profile > img {
 .user-pic {
     background-image: url("./icons/avatar.svg");
     background-repeat: no-repeat;
+}
+
+.profile > img {
+    align-self: center;
 }
