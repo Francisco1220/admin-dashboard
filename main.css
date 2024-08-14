@@ -42,17 +42,21 @@
 }
 
 .dashboard {
-    font-size: 1.5rem; /* Here */
+    font-size: 1.3rem;
     margin-bottom: 25px;
     margin-top: 10px;
     margin-right: 5px;
+}
+
+ul > div:first-child {
+    border: 2px solid black;
 }
 
 .nav-item {
     margin-bottom: 40px;
 }
 
-.nav div:nth-child(n) {
+.nav img:nth-child(n) {
     justify-self: center;
 }
 
@@ -194,4 +198,12 @@ button {
     border-radius: 100%;
 }
 
-/* Fix weird bug where design is not viewport height */ 
+ul > img {
+    width: 20px;
+    height: 20px;
+}
+
+ul > img:first-child {
+    width: 40px;
+    height: 40px;
+}
