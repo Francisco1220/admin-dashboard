@@ -328,3 +328,12 @@ form > img, .profile > img {
     background-image: url(./icons/avatar4.svg);
     background-repeat: no-repeat;
 }
+
+.box-shadow {
+    width: 10px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: inset 10px 0 gold;
+}
