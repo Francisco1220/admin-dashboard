@@ -275,6 +275,7 @@ form > img, .profile > img {
 
 .box > p:nth-child(2) {
     font-size: 10px;
+    color: rgb(102, 102, 102);
 }
 
 .box > p:nth-child(1) {
