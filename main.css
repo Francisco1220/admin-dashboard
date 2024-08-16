@@ -258,7 +258,7 @@ form > img, .profile > img {
 }
 
 .user-pic {
-    background-image: url("./icons/avatar.svg");
+    background-image: url("./assets/avatars/avatar.svg");
     background-repeat: no-repeat;
 }
 
@@ -310,22 +310,22 @@ form > img, .profile > img {
 }
 
 .trending-container > div:nth-child(3) {
-    background-image: url(./icons/avatar.svg);
+    background-image: url(./assets/avatars/avatar.svg);
     background-repeat: no-repeat;
 }
 
 .trending-container > div:nth-child(5) {
-    background-image: url(./icons/avatar2.svg);
+    background-image: url(./assets/avatars/avatar2.svg);
     background-repeat: no-repeat;
 }
 
 .trending-container > div:first-child {
-    background-image: url(./icons/avatar3.svg);
+    background-image: url(./assets/avatars/avatar3.svg);
     background-repeat: no-repeat;
 }
 
 .trending-container > div:nth-child(7) {
-    background-image: url(./icons/avatar4.svg);
+    background-image: url(./assets/avatars/avatar4.svg);
     background-repeat: no-repeat;
 }
 
