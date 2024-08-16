@@ -55,10 +55,6 @@
     margin: 10px 5px 25px 0;
 }
 
-ul > div:first-child {
-    border: 2px solid black;
-}
-
 .nav-item {
     margin-bottom: 40px;
 }
